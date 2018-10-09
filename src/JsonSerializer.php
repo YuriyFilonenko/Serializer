@@ -4,7 +4,7 @@ namespace App;
 
 class JsonSerializer
 {
-    public function serialize($object)
+    public function serialize(PersonInterface $object): string
     {
         $array = $object->objectToArray();
         

@@ -6,7 +6,7 @@ use Symfony\Component\Yaml\Yaml;
 
 class YamlSerializer
 {
-    public function serialize($object)
+    public function serialize(PersonInterface $object): string
     {
         $array = $object->objectToArray();
      

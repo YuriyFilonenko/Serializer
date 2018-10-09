@@ -4,5 +4,5 @@ namespace App;
 
 interface PersonInterface
 {
-    public function objectToArray();
+    public function objectToArray(): array;
 }
