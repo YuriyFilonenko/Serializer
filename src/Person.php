@@ -2,6 +2,11 @@
 
 namespace App;
 
+/**
+ * Implements logic for convert object to associative array
+ *
+ * @author Yuriy Filonenko <mail@gmail.com>
+ */
 class Person implements PersonInterface
 {
     private $firstName;
@@ -15,6 +20,11 @@ class Person implements PersonInterface
         $this->age = $age;
     }
     
+    /**
+     * Convert object to associative array
+     *
+     * @return array
+     */
     public function objectToArray(): array
     {
         $array = [];
