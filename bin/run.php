@@ -1,9 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-use App\Person;
-use App\JsonSerializer;
-use App\YamlSerializer;
+use App\{Person, JsonSerializer, YamlSerializer};
 
 include_once __DIR__ . '/../vendor/autoload.php';
 
